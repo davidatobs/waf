@@ -4,7 +4,7 @@ import joblib
 import re
 import random
 
-app = Flask(_name_)
+app = Flask(__name__)
 CORS(app)
 
 # Load the trained model and vectorizer
