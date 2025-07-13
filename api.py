@@ -51,5 +51,5 @@ def predict():
 def serve_demo():
     return send_from_directory("static", "index.html")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     app.run(debug=True)
